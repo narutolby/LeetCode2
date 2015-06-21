@@ -44,7 +44,7 @@ public class Two_Sum {
 		Arrays.sort(ret);
 		return ret;
 	}
-	public int[] twoSum(int[] nums, int target) {
+	public int[] twoSum1(int[] nums, int target) {
 		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 		int ret[] = new int[2];
 		for(int i=1;i<=nums.length;i++){
